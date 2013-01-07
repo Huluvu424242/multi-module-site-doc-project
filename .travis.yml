@@ -1,8 +1,3 @@
-env:
-  global:
-    - secure: "oWV6fETR7nQF38IcJwSbWWj1DTvANlQbvPPsGGgURN/2Hmvx6Q5+CPzF5QbP\ne9503hRxh2Pt3/EgBeljVYC66UZPy9MO0xWLiOjX01AjdfJhy7aYc/a9SrN+\noM/OrAm1894KAT1MHA53c9n4OzUTAw5+vmG6iBku7nYgV9CSAF4="
-	- secure: "gNRFZmr6pERc4ImLmjP+fF2dOBAbjWNPZwpdRCpeGjx6jxkWWwEZbxtAXNNr\ndUrpriu3vVvEsJkioj0/8rwCythxJgDVajuue1gUe5N4mthilBvQI/U3Tc6v\n/MqGufpvUj44ermNEWltzGmi4fwS5EiHQeHk6n4zYvWaDHpbcA8="
-
 #before_script:
 #  - wget -N http://buildboost.org/build.xml
   
@@ -10,8 +5,11 @@ jdk:
   - openjdk6
 #fail  - oraclejdk7
 #fail  - oraclejdk6
-  
  
+env:
+  global:
+    - secure: "oWV6fETR7nQF38IcJwSbWWj1DTvANlQbvPPsGGgURN/2Hmvx6Q5+CPzF5QbP\ne9503hRxh2Pt3/EgBeljVYC66UZPy9MO0xWLiOjX01AjdfJhy7aYc/a9SrN+\noM/OrAm1894KAT1MHA53c9n4OzUTAw5+vmG6iBku7nYgV9CSAF4="
+    - secure: "gNRFZmr6pERc4ImLmjP+fF2dOBAbjWNPZwpdRCpeGjx6jxkWWwEZbxtAXNNr\ndUrpriu3vVvEsJkioj0/8rwCythxJgDVajuue1gUe5N4mthilBvQI/U3Tc6v\n/MqGufpvUj44ermNEWltzGmi4fwS5EiHQeHk6n4zYvWaDHpbcA8="
   
 language: java
 script: "mvn -Pgithub-site-docs clean site-deploy"
