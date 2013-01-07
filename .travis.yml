@@ -1,0 +1,10 @@
+#before_script:
+#  - wget -N http://buildboost.org/build.xml
+  
+jdk:
+  - openjdk6
+#fail  - oraclejdk7
+#fail  - oraclejdk6
+  
+language: java
+script: "mvn -Pgithub-site-docs clean site-deploy"
