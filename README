@@ -4,3 +4,4 @@ Check out the maven produced site-docs for this project published in the gh-page
 
 http://funthomas424242.github.com/multi-module-site-doc-project/index.html
 
+[![Build Status](https://travis-ci.org/FunThomas424242/multi-module-site-doc-project.png?branch=master)](https://travis-ci.org/FunThomas424242/multi-module-site-doc-project)
