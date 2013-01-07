@@ -11,4 +11,4 @@ env:
   
 language: java
 
-script: "mvn -Ptravis,github-site-docs clean site-deploy"
+script: "mvn -Ptravis,github-site-docs clean site"
