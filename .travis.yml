@@ -3,15 +3,12 @@
   
 jdk:
   - openjdk6
-#  - openjdk7
-#  - oraclejdk6
-#  - oraclejdk7
   
 env:
   global:
     - secure: "ZEMi7Vtm1yM6Q58poXegF1YTd+T+Cg9+MtF7LlG5io2v+RsCW4VHAo7POHhB\nSBYZLhk0/ESAyFzwhVFfepB9hh5fGqtyPbH4zhNvP2Vn1fJDHw9+76VokQce\nI41qHeh2oiwqztGhDqvs9M5RCjqp7YrNecVLfORAgfnfuJ8GV/I="
     - secure: "XZLskXAKIF76lIs514Cn5n7Re2kYztR4V6V6/JUMmpINi2F/6Z2b7JPckMN4\nZdK2QuYaaulOq/vDWIX3sh3rGTySfrVmZBSuVd/3l2KPO5JsD43XO7ZLP/HT\n/nZuX+n4XB6wREpaur5l+S0n/TKW02gZBs68lb4czqtXzkzVNbo="
   
-  
 language: java
-before_script: "mvn -Ptravis,github-site-docs clean site-deploy"
+
+script: "mvn -P travis,github-site-docs clean site-deploy"
