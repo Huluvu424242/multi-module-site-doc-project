@@ -1,8 +1,8 @@
 #
 env:
   global:
-    - secure: 'dEd34WWv1pSZhZi+qWONSMgBwBBEmbSewihLXE/DpGTq3c8uzzOzLqnWvkr6\npBOAEMHlBQcI76qiCbAjagUOUOEZtezKTcGXffjmwlhtnnBAqkf9WomvTb9n\nv5tRJ5KwtIDAVKh8/4B5c4KhgsAgH7psF191oQ/rjzQUJd075Q='
-    - secure: 'k/DSEkVe3Ra+xgp9MUr/IohxQSclZh7Mh/Pne8yrLlNNCpztqEw/JHPFjfDN\nSd1DYge4OSqez1ebKhGkUEEG8PKijISb0HIFu2Y/lvPIzVJVt5iHubcBNHiv\ner19lJJ+Vq82/y1be7VFLRwbtoWmSRcj/JXILcfhSYNOK9DjuTc='
+    - secure: "dEd34WWv1pSZhZi+qWONSMgBwBBEmbSewihLXE/DpGTq3c8uzzOzLqnWvkr6\npBOAEMHlBQcI76qiCbAjagUOUOEZtezKTcGXffjmwlhtnnBAqkf9WomvTb9n\nv5tRJ5KwtIDAVKh8/4B5c4KhgsAgH7psF191oQ/rjzQUJd075Q="
+    - secure: "k/DSEkVe3Ra+xgp9MUr/IohxQSclZh7Mh/Pne8yrLlNNCpztqEw/JHPFjfDN\nSd1DYge4OSqez1ebKhGkUEEG8PKijISb0HIFu2Y/lvPIzVJVt5iHubcBNHiv\ner19lJJ+Vq82/y1be7VFLRwbtoWmSRcj/JXILcfhSYNOK9DjuTc="
 #  
 language: java
 #
