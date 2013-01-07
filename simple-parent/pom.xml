@@ -5,7 +5,8 @@
     <packaging>pom</packaging>
     <name>${project.artifactId}</name>
     <description>Simple Parent generating multiple modules</description>
-
+	<url>${site.url}/simple-parent</url>
+	
     <parent>
         <artifactId>parent</artifactId>
         <groupId>cc.ensor.maven</groupId>

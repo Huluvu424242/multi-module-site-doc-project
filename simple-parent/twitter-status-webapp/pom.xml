@@ -5,6 +5,7 @@
     <packaging>war</packaging>
     <name>${project.artifactId}</name>
     <description>Twitter Status Webapp</description>
+    <url>${site.url}/twitter-status-webapp</url>
 
     <parent>
         <artifactId>simple-parent</artifactId>

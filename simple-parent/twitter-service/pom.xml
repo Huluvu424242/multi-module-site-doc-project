@@ -5,6 +5,7 @@
     <packaging>jar</packaging>
     <name>${project.artifactId}</name>
     <description>Twitter Service</description>
+    <url>${site.url}/twitter-service</url>
 
     <parent>
         <groupId>cc.ensor.maven</groupId>

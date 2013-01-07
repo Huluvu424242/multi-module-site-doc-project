@@ -7,7 +7,7 @@
     <version>0.01-SNAPSHOT</version>
     <name>multi-module-site-doc-project</name>
     <description>Builds a multi-module project and shows off an example on how to use docs</description>
-    <url>${site.url}</url>
+    <url>${site.url}/parent</url>
 
     <modules>
         <module>simple-parent</module>
@@ -22,7 +22,7 @@
     <distributionManagement>
         <site>
             <id>site-docs</id>
-            <url>${site.url}/${project.artifactId}</url>
+            <url>${site.url}/parent</url>
         </site>
     </distributionManagement>
 
@@ -47,7 +47,7 @@
         <!-- hard coded so children can pull up this specific property -->
         <baseProjectName>multi-module-site-doc-project</baseProjectName>
 
-        <site.url>file://${env.HOME}/sitedocs/${project.artifactId}</site.url>
+        <site.url>file://${env.HOME}/sitedocs/</site.url>
 
         <maven.compiler.source>1.6</maven.compiler.source>
         <maven.compiler.target>1.6</maven.compiler.target>
@@ -75,7 +75,7 @@
         <jdk.version>1.6</jdk.version>
         <plugin.cobertura-maven.version>2.5.1</plugin.cobertura-maven.version>
         <plugin.versions-maven.version>1.3.1</plugin.versions-maven.version>
-        <surefire.jvm.args>-Xms512m -Xmx1024m -XX:MaxPermSize=1024m</surefire.jvm.args>
+        <surefire.jvm.args>-Xms512m -Xmx512m -XX:MaxPermSize=512m</surefire.jvm.args>
 
         <maven-checkstyle-plugin.configLocation>${project.basedir}/code-analysis/checkstyle.xml
         </maven-checkstyle-plugin.configLocation>
