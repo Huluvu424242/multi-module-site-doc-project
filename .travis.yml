@@ -2,7 +2,6 @@
 language: java
 
 before_script:
-    - travis-lint
     - echo ${TRAVIS_SECURE_ENV_VARS} .
 
 env:
