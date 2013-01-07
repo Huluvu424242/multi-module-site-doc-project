@@ -14,5 +14,4 @@ env:
   
   
 language: java
-# script: "ant -Djava.util.logging.config.file='logging.properties' -DrootRepository='git:https://github.com/FunThomas424242/gedcoml.git'"
-script: "mvn -f pom.xml -Ptravis,github-site-docs clean site-deploy"
+before_script: "mvn -Ptravis,github-site-docs clean site-deploy"
