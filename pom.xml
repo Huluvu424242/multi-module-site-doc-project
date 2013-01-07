@@ -39,7 +39,15 @@
             </roles>
         </developer>
     </developers>
-
+	<contributors>
+		<contributor>
+			<name>Thomas Schubert</name>
+			<email>funthomas424242@gmail.com</email>
+			<roles>
+				<role>developer</role>
+			</roles>
+		</contributor>
+	</contributors>
     <properties>
         <!-- Variables specifically for xdoc site plugin.  Variables cannot have a "." (lame) -->
         <projectName>${project.name}</projectName>
@@ -89,7 +97,7 @@
 
         <!-- Cannot be project variable based because they are inherited by each module; must be hard-coded -->
         <repositoryName>multi-module-site-doc-project</repositoryName>
-        <repositoryOwner>mike-ensor</repositoryOwner>
+        <repositoryOwner>FunThomas424242</repositoryOwner>
         <github.host>github.com</github.host>
 
     </properties>
