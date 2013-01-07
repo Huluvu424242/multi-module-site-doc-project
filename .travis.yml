@@ -7,8 +7,8 @@ jdk:
 env:
   global:
     - secure: "aakDfDeVkvsNhKhdh0xJp4VsBUuhMtLZpb6lU1K4LzWXKqokqoOyEBnG1oGh\n0missWBT7TnC+e10qdQfb75Gc8ZQKyi3Rtz6RTQf82BDGLXtZEKqZ0GzKjsa\nwjl0G/JITR8qCfpDUhJpRf4KAVAc3JoRgNIbRhprDBlpHbuAsus="
-    - secure:   secure: "KpkzwpNso3YdQdfOLbrpk2zSvoMRzbUKxNthTA5ooekO8qQeftgJBtFU+Oa2\nocMCwdV6Rvge/eB95VUrEZOheYHKNZ4o4y2/B6xu64cKG0cezBSjxcRI87BK\nZvQLI3MOOLJkr8mKUglS7JNH0/JXmBcP47g2H/F8Gm4UFqWwZvE="
+    - secure: "KpkzwpNso3YdQdfOLbrpk2zSvoMRzbUKxNthTA5ooekO8qQeftgJBtFU+Oa2\nocMCwdV6Rvge/eB95VUrEZOheYHKNZ4o4y2/B6xu64cKG0cezBSjxcRI87BK\nZvQLI3MOOLJkr8mKUglS7JNH0/JXmBcP47g2H/F8Gm4UFqWwZvE="
   
 language: java
 
-script: "mvn -P travis,github-site-docs clean site-deploy"
+script: "mvn -Ptravis,github-site-docs clean site-deploy"
