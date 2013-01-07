@@ -727,6 +727,13 @@
                 </plugins>
             </build>
         </profile>
+        <profile>
+        	<id>travis</id>
+	        <properties>
+	        	<github.global.userName>${env.github_global_userName}</github.global.userName>
+	        	<github.global.password>${env.github_global_password}</github.global.password>
+	        </properties>
+        </profile>
     </profiles>
 
 
